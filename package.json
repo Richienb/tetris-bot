@@ -5,6 +5,7 @@
 	"type": "module",
 	"license": "MIT",
 	"scripts": {
+		"start": "node .",
 		"dev": "nodemon --watch source --ext ts,json --exec \"node --loader ts-node/esm ./source/index.ts\""
 	},
 	"engines": {

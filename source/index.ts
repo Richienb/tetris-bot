@@ -79,7 +79,6 @@ bot.on("interactionCreate", async interaction => {
 				if (game.isGameOver) {
 					stop()
 					await interaction.editReply(`You loose! Score: ${game.linesCleared}`)
-					gameInstanceMap.delete(interaction.user.id)
 				}
 			}, 1000)
 		}

@@ -1,4 +1,4 @@
-![Tetris](https://user-images.githubusercontent.com/29491356/129475291-8d6e9d3f-e9eb-48dc-9c99-04fc77757fa5.jpg)
+![Tetris](https://user-images.githubusercontent.com/29491356/129475438-c0c3e4c4-e2b9-483c-8ceb-cb97dc70da09.png)
 
 Play Tetris in Discord. 
 To use, [invite the bot](https://discord.com/api/oauth2/authorize?client_id=873850504696963072&permissions=0&scope=bot%20applications.commands) then run `/tetris`

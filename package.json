@@ -15,7 +15,6 @@
 		"array-shuffle": "^3.0.0",
 		"discord.js": "^13.0.1",
 		"interval-promise": "^1.4.0",
-		"jsdom": "^16.7.0",
 		"p-forever": "^3.0.1",
 		"rotate-matrix": "^0.0.3"
 	},

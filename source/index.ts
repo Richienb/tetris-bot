@@ -42,11 +42,11 @@ const formatPlayfield = (playfield: string[][]) => playfield.map(row => row.map(
 
 bot.on("interactionCreate", async interaction => {
 	if (interaction.isButton()) {
-		const [game, commandInteraction] = gameInstanceMap.get(interaction.user.id)
-
-		if (!game) {
+		if (!gameInstanceMap.has(interaction.user.id)) {
 			return
 		}
+		
+		const [game, commandInteraction] = gameInstanceMap.get(interaction.user.id)
 
 		if (interaction.customId === "moveLeft") {
 			game.moveLeft()
